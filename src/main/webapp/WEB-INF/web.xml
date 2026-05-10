@@ -1,0 +1,83 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Verif</servlet-name>
+  	<servlet-class>tn.essat.controller.Verif</servlet-class>
+  </servlet>
+
+  <servlet>
+  	<servlet-name>Inscription</servlet-name>
+  	<servlet-class>tn.essat.controller.Inscription</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Logout</servlet-name>
+  	<servlet-class>tn.essat.controller.Logout</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GestionLivres</servlet-name>
+  	<servlet-class>tn.essat.controller.GestionLivres</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GestionCategories</servlet-name>
+  	<servlet-class>tn.essat.controller.GestionCategories</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>GestionEmprunts</servlet-name>
+  	<servlet-class>tn.essat.controller.GestionEmprunts</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DashboardAdmin</servlet-name>
+  	<servlet-class>tn.essat.controller.DashboardAdmin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DashboardUser</servlet-name>
+  	<servlet-class>tn.essat.controller.DashboardUser</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Principal</servlet-name>
+  	<display-name>Principal</display-name>
+  	<description></description>
+  	<servlet-class>tn.essat.controller.Principal</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Verif</servlet-name>
+  	<url-pattern>/Verif</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+  	<servlet-name>Inscription</servlet-name>
+  	<url-pattern>/Inscription</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Logout</servlet-name>
+  	<url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GestionLivres</servlet-name>
+  	<url-pattern>/GestionLivres</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GestionCategories</servlet-name>
+  	<url-pattern>/GestionCategories</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>GestionEmprunts</servlet-name>
+  	<url-pattern>/GestionEmprunts</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DashboardAdmin</servlet-name>
+  	<url-pattern>/DashboardAdmin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DashboardUser</servlet-name>
+  	<url-pattern>/DashboardUser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Principal</servlet-name>
+  	<url-pattern>/Principal</url-pattern>
+  </servlet-mapping>
+</web-app>
